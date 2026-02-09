@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>SimplyWeb</title>
+</head>
+
+<body>
+    <nav>
+        <h1> <span style="color: #ffde59;">Simply</span>Web</h1>
+        <div class="nav-links">
+            <h1 class="logo"><span style="color: #ffde59;">Simply</span>Web</h1>
+            <a href="#hero">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Clean, fast websites for cafés & small businesses</h1>
+            <p>I help local businesses build simple, professional websites that work on all devices and bring more
+                customers online.</p>
+            <a href="#contact" class="cta-button">Get a website →</a>
+            <a href="https://oak-and-bean-cafe.netlify.app/" class="cta-button" target="_blank">Sample Website →</a>
+        </div>
+        <div class="hero-img">
+            <img src="hero-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="cutom-websites.png" alt="Custom Website Design">
+                <h3>Custom Website Design</h3>
+                <p>Get a unique, professional website tailored to your business needs and brand identity.</p>
+            </div>
+            <div class="service-card">
+                <img src="responsive-web-icon-4.webp" alt="Responsive Web Design">
+                <h3>Responsive Design</h3>
+                <p>Your website will look great and function perfectly on all devices, from desktops to smartphones.</p>
+            </div>
+            <div class="service-card">
+                <img src="web-optimization-icon-vector.jpg" alt="SEO Optimization">
+                <h3>SEO Optimization</h3>
+                <p>Improve your online visibility and attract more customers with our SEO-friendly website designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="me.png" alt="Krishnakumar">
+        </div>
+        <div class="about-content">
+            <h2 id="about">About Me</h2>
+            <p>Hi, I'm Krishnakumar, a passionate web designer dedicated to helping local businesses establish a strong
+                online presence. With years of experience in creating clean, user-friendly websites, I specialize in
+                crafting custom designs that reflect your brand and attract more customers. My goal is to provide you
+                with a
+                website that not only looks great but also performs well on all devices. Let's work together to bring
+                your
+                business online and help it thrive!</p>
+            <a href="https://krishna23002.github.io/portfolio/" class="cta-button" target="_blank">My Portfolio →</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Interested in working together? Fill out the form below to get in touch, and I'll get back to you as
+            soon as possible!
+        </p>
+        <form name="contact" method="POST" data-netlify="true" action="/success.html">
+            <input type="hidden" name="form-name" value="contact">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <span class="social-links">
+            <a href="https://www.instagram.com/simply_web_dev/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:arjunkrishnakumar90@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </span>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SimplyWeb. All rights reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/917021337420text=Hi%20I%20need%20a%20website%20for%20my%20business" class="whatsapp-float"
+        target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+<script src="script.js"></script>
+
+</html>
